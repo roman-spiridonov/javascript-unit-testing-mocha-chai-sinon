@@ -3,7 +3,7 @@
  */
 const fs = require('fs');
 
-let getPalette = require("../lib/getPalette");
+let getPalette = require("../src/getPalette");
 let assert = require('assert');
 
 let configFile = process.cwd() + "/config.json";

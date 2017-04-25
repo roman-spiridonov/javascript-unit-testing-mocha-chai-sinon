@@ -2,7 +2,7 @@ const sinon = require('sinon');
 const assert = require('assert');
 const expect = require('chai').expect;
 
-let hex2rgbWrapper = require('../lib/hex2rgbWrapper');
+let hex2rgbWrapper = require('../src/hex2rgbWrapper');
 
 describe("hex2rgbWrapper - Sinon", function () {
   describe("convert method", function () {

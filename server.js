@@ -1,7 +1,7 @@
 let express = require("express");
 let app = express();
 
-let getPalette = require('./lib/getPalette');
+let getPalette = require(../src/getPalette');
 
 app.set('view engine', 'jade');
 

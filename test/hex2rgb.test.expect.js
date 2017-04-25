@@ -1,4 +1,4 @@
-let hex2rgb = require('../lib/hex2rgb');
+let hex2rgb = require('../src/hex2rgb');
 let assert = require('assert');
 let expect = require('chai').expect;
 

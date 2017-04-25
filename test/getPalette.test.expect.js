@@ -1,4 +1,4 @@
-let getPalette = require("../lib/getPalette");
+let getPalette = require("../src/getPalette");
 let assert = require('chai').assert;
 let expect = require('chai').expect;
 
